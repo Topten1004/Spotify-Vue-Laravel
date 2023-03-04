@@ -1,0 +1,180 @@
+.player--dark#player-container,
+.v-application.theme--dark {
+    .auth-page-wrapper {
+        background-color: rgb(34, 34, 34);
+    }
+    .panel-color {
+        background-color: $dark-theme-panel-bg-color !important;
+    }
+    #player-sidebar {
+        background-color: $dark-theme-panel-bg-color !important;
+    }
+    #player-container__content__main {
+        color: $dark-theme-text-color;
+        background-color: $dark-theme-bg-color;
+    }
+    #right-sidebar-container {
+        background-color: $dark-theme-panel-bg-color;
+        .right-sidebar-toggle {
+            background: $dark-theme-panel-bg-color;
+        }
+        .friends-container {
+            &__main {
+                background-color: $dark-theme-bg-color;
+            }
+            .friends-toggle-button {
+                background-color: $dark-theme-panel-bg-color;
+            }
+            .card-title-medium {
+                padding: 0 0.7em;
+                margin-bottom: 0.6em;
+                color: $dark-theme-text-color;
+            }
+            .friends-list {
+                color: $dark-theme-text-color;
+                ul {
+                    li {
+                        .top-side {
+                            .infos {
+                                .name-container {
+                                    .name {
+                                        color: $dark-theme-text-color;
+                                    }
+                                }
+                            }
+                        }
+                        .bottom-side {
+                            .options {
+                                & > button {
+                                    color: $dark-theme-text-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .content-page {
+        .icon-header {
+            color: $dark-theme-text-color;
+            .title {
+                .sub {
+                    color: $dark-theme-text-color;
+                }
+            }
+        }
+    }
+    .browse-container {
+        .options-menu {
+            ul {
+                li {
+                    a {
+                        color: $dark-theme-text-color;
+                    }
+                }
+            }
+        }
+    }
+    .circle {
+        color: $dark-theme-text-color;
+        .img {
+            border: 1px solid $dark-theme-text-color;
+        }
+    }
+    .page-title-medium {
+        color: $dark-theme-text-color;
+    }
+    .infos-layer {
+        color: $dark-theme-text-color;
+    }
+    .library-container {
+        .library-fixed-wrapper {
+            background-color: $dark-theme-bg-color;
+            ul {
+                background-color: $dark-theme-bg-color;
+            }
+            @media screen and (max-width: 800px) {
+                position: static;
+                padding-top: 0;
+                width: 100%;
+            }
+            .list-menu {
+                .list {
+                    a {
+                        color: $dark-theme-text-color;
+                    }
+                }
+            }
+        }
+    }
+    .displayname,
+    .podcast-title {
+        color: $dark-theme-text-color;
+    }
+    .epico_footer-layout {
+        .epico_player-main-container {
+            background-color: $dark-theme-panel-bg-color;
+            .epico_audio-info {
+                color: $dark-theme-text-color;
+                .audio-title {
+                    color: $dark-theme-text-color;
+                }
+            }
+        }
+        .epico_playlist-container {
+            .epico_playlist-ul-wrapper {
+                background-color: $dark-theme-bg-color;
+                color: $dark-theme-text-color;
+            }
+        }
+        .current-audio-time,
+        .current-audio-duration {
+            color: $dark-theme-text-color;
+        }
+    }
+    .epico_phone-layout-full {
+        .epico_player-container {
+            color: $dark-theme-text-color;
+            .epico_player-main-container {
+                background-color: $dark-theme-panel-bg-color;
+                box-shadow: none;
+            }
+        }
+        .epico_playlist-ul {
+            background-color: $dark-theme-panel-bg-color;
+        }
+        .epico_playlist-text-container {
+            background-color: $dark-theme-panel-bg-color;
+        }
+    }
+    .more-or-less {
+        & > * {
+            color: $dark-theme-text-color;
+            opacity: 0.8;
+            &::before,
+            &::after {
+                background-color: $dark-theme-text-color;
+                opacity: 0.8;
+            }
+        }
+    }
+    .hiding-box-left {
+        background-image: linear-gradient(to right, var(--dark-theme-panel-bg-color) 0% , transparent 100%) !important;
+    }
+    .hiding-box-right {
+        background-image: linear-gradient(to left, var(--dark-theme-panel-bg-color) 0% , transparent 100%) !important;
+    }
+    .activity-container {
+        .hiding-box-left {
+            background-image: linear-gradient(to right, var(--dark-theme-bg-color) 0% , transparent 100%) !important;
+        }
+        .hiding-box-right {
+            background-image: linear-gradient(to left, var(--dark-theme-bg-color) 0% , transparent 100%) !important;
+        }
+    }
+
+    .chat-wrapper {
+        background-color: $dark-theme-panel-bg-color;
+    }
+}

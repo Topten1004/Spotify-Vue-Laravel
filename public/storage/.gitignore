@@ -1,0 +1,6 @@
+*
+!defaults
+!defaults/*
+!defaults/*/*
+!defaults/*/*/*
+!.gitignore

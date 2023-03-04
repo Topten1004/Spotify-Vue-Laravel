@@ -1,0 +1,120 @@
+.content-list-wrapper {
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            display: flex;
+            width: 100%;
+            padding: .4rem 1rem;
+            align-items: center;
+            .rank {
+                padding-right: 0.8em;
+                width: 30px;
+                .play-icon {
+                    display: none;
+                }
+            }
+            .item-cover {
+                display: flex;
+                align-items: center;
+
+                .img {
+                    width: 2.7rem;
+                    margin-right: 0.8rem;
+                    border-radius: 5px;
+                }
+            }
+            .item-info {
+                display: flex;
+                width: 40%;
+                align-items: center;
+                .epico_music-is-playing-container {
+                    margin-left: 0.7em;
+                    margin-bottom: 0.2em;
+                }
+            }
+            .item-title {
+                font-weight: 600;
+                cursor: pointer;
+            }
+            .item-artist {
+                flex-grow: 1;
+                text-align: end;
+            }
+        }
+        li:hover {
+            background-color: rgba(134, 134, 134, 0.212);
+            .rank__rank {
+                display: none;
+            }
+            .play-icon {
+                display: inline;
+            }
+        }
+        a {
+            color: $light-theme-text-color;
+            text-decoration: none;
+        }
+    }
+    .custom-options {
+        display: flex;
+        align-items: flex-end;
+        & > * {
+            margin-left: 1em;
+        }
+        .delete-button,
+        .download,
+        .privacy {
+            .svg-image {
+                width: 1em;
+            }
+        }
+    }
+    .options {
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+        & > * {
+            margin-left: 1em;
+        }
+    }
+}
+
+// song rankings on album or playlist
+.rank {
+    font-weight: bold;
+}
+.rank-one {
+    font-size: 1.6em;
+    color: #fdd835;
+}
+.rank-two {
+    font-size: 1.3em;
+    color: #c0c0c0;
+}
+.rank-three {
+    font-size: 1.1em;
+    color: #cd7f32;
+}
+
+.skeleton-list {
+    list-style: none;
+    padding: 0;
+    .skeleton {
+        display: flex;
+        width: 100%;
+        padding: 0.5rem 1rem;
+        align-items: center;
+        & > *:first-child {
+            width: 4em;
+            padding-right: 1em;
+        }
+        & > *:nth-child(2) {
+            width: 88%;
+        }
+    }
+    .vue-content-placeholders-img {
+        height: 50px !important;
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,233 @@
+#navbar.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    height: 4em;
+    left: 6.5em;
+    padding: 0.2rem 1rem;
+    padding-left: 1em !important;
+    right: 0;
+    z-index: 56;
+    box-shadow: 0px 0px 1px -2px rgba(0, 0, 0, 0.14),
+        0px 0px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 2px 0px rgba(0, 0, 0, 0.12);
+    background-color: $light-theme-bg-color;
+    .navbar__left-side,
+    .navbar__right-side {
+        display: flex;
+        align-items: center;
+    }
+    .chevrons {
+        margin-right: .5rem;
+        display: flex;
+
+        @media screen and(max-width: 750px) {
+            margin-right: 1.3em;
+        }
+
+        @media screen and (max-width: 600px) {
+            display: none;
+        }
+    }
+    .searchbar-container {
+        @media screen and (max-width: 650px) {
+            transition: all 0.5s;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            display: flex;
+            justify-content: center;
+        }
+        @media screen and (min-width: 651px) {
+            transform: none !important;
+            opacity: 1 !important;
+            pointer-events: initial !important;
+        }
+    }
+    .logo {
+        height: 3em;
+        img {
+            height: 75%;
+        }
+        a {
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        @media screen and (min-width: 600px) {
+            display: none;
+        }
+        margin-bottom: 0;
+    }
+    @media screen and(max-width: 900px) {
+        left: 5.5em;
+        .icons .friends {
+            display: none;
+        }
+
+        .register__btn {
+            display: none;
+        }
+    }
+    @media screen and (min-width: 650px) {
+        margin-right: auto;
+        .search-icon {
+            display: none;
+        }
+    }
+    @include sm {
+        left: 0;
+        z-index: 1000;
+        padding: 0 0.3em;
+    }
+}
+
+.player--dark {
+    #navbar {
+        background-color: $dark-theme-bg-color;
+        border-bottom: $thin-border;
+    }
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    color: $light-theme-text-color;
+    .upgrade-account {
+        display: flex;
+        align-items: center;
+        margin-right: 1em;
+        @media (max-width: 900px) {
+            display: none;
+        }
+    }
+    .icons {
+        display: flex;
+        align-items: center;
+        .icon {
+            cursor: pointer;
+        }
+
+        .chat {
+            position: relative;
+            &-component {
+                position: absolute;
+                top: 120%;
+                z-index: 11111111;
+                right: -10em;
+                @media screen and (max-width: 700px) {
+                    padding: 0 1em;
+                    position: fixed;
+                    top: 5em;
+                    right: 0;
+                    left: 0;
+                }
+            }
+        }
+
+        .friends {
+            @media screen and(min-width: 900px) {
+                display: none;
+            }
+        }
+
+        & > * {
+            // margin: 0 .5rem;
+        }
+
+        .svg-image {
+            width: 1.15rem;
+        }
+
+        .notifications {
+            position: relative;
+        }
+
+        .notifications-indicator,
+        .unread-indicator {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 0.7rem;
+            height: 0.7rem;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            font-size: 0.7rem;
+
+            & > * {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+
+    .account {
+        display: flex;
+        align-items: center;
+        border-radius: 25px;
+        padding: 0.3rem;
+        transition: all 0.4s;
+        position: relative;
+        cursor: pointer;
+        &:hover {
+            background-color: rgba(110, 110, 110, 0.226);
+        }
+
+        .avatar {
+            width: 35px;
+            margin-right: 0.3rem;
+            &-image {
+                height: 100%;
+                border-radius: 50%;
+                width: 100%;
+            }
+        }
+
+        .short-name {
+            @media screen and(min-width: 900px) {
+                display: none;
+            }
+
+            @media screen and(max-width: 700px) {
+                display: none;
+            }
+        }
+
+        .name {
+            max-width: 6em;
+            @media screen and(max-width: 900px) {
+                display: none;
+            }
+        }
+
+        .chevron {
+            margin-left: 0.5rem;
+        }
+    }
+}
+
+.svg-image {
+    fill: white;
+}
+
+.auth {
+    .buttons {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.player--dark {
+    .user {
+        color: $dark-theme-text-color;
+    }
+}
+
+
+.panel {
+    min-width: 250px;
+}

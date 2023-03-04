@@ -1,0 +1,69 @@
+.auth-page-wrapper {
+    font-family: "Nunito", sans-serif;
+    color: rgba(0, 0, 0, 0.795) !important;
+    background-image: url("/images/background.svg");
+    background-color: rgb(243, 243, 243);
+    background-size: cover;
+    transition: height 0.5s;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    padding: 1em 0;
+    .auth-box {
+        max-width: 500px;
+        min-width: 400px;
+        padding: 1em;
+        border-radius: 5px !important;
+        @media (max-width: 500px) {
+            width: 85%;
+            min-width: 320px;
+        }
+        .logo-img-container {
+            img {
+                height: 50px;
+            }
+        }
+        &__inputs {
+            
+        }
+        &__auth-btn {
+            position: relative !important;
+            width: 60px !important;
+        }
+        &__title {
+           h2 {
+            text-align: center !important;
+            padding: .6em 0 !important;
+           }
+        }
+        .error-message-container {
+            display: flex;
+            justify-content: center;
+        }
+        .link-text {
+            font-size: 0.9em;
+            opacity: 0.7;
+            cursor: pointer;
+            transition: color 0.5s;
+            &:hover {
+                color: #4245a8;
+            }
+        }
+        .wide-divider {
+            margin-top: 26px;
+            opacity: .75;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+
+.v-application.theme--dark {
+    .auth-page-wrapper {
+        background-color: rgb(34, 34, 34);
+    }
+}

@@ -1,0 +1,37 @@
+html {
+    @media screen and( max-width: 1100px) {
+        font-size: 92% !important;
+    }
+}
+
+html,body {
+    font-family: $body-font-family, sans-serif;
+    height: 100%;
+    font-size: 97.5% !important;
+    overflow-y: auto !important;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.v-application {
+    font-family: $body-font-family, sans-serif !important;
+}
+
+ul {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+img,svg {
+    display: block;
+}
+
+
+input {
+    color: #333;
+}

@@ -1,0 +1,139 @@
+// stylesheet for pages with fixed left side such as library, album, podcast, artist, playlist pages ...etc
+
+@import "../../variables";
+
+.fixed-side-layout {
+    .main {
+        padding-top: .3em;
+    }
+    &, .library-container {
+        .fixed-area {
+            position: fixed;
+            top: 0em;
+            height: 100%;
+            padding: 0 0.5em 0.5em 0em;
+            padding-top: 4.5rem;
+            z-index: 55;
+            width: 16em;
+            @media screen and (max-width: 1100px) {
+                width: 15em;
+            }
+            .info-wrapper {
+                justify-content: space-between;
+                padding: 0.5em 0rem 0 0;
+                .title {
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    line-height: 1.5;
+                    &__title {
+                        line-height: 2;
+                    }
+                    .album-release-date {
+                        font-size: .87em;
+                    }
+                }
+                .sub {
+                    font-size: .72em;
+                }
+                img.svg-image {
+                    transform: rotate(90deg);
+                    cursor: pointer;
+                }
+                .podcast-name {
+                    font-size: 1.3rem;
+                    color: white;
+                    font-weight: 700;
+                }
+            }
+            .img-container {
+                width: 100%;
+                padding-top: 5px;
+                @media screen and (max-width: 750px) {
+                    width: 13em;
+                }
+            }
+            &__image-skeleton {
+                height: 100%;
+            }
+            .img-cover {
+                width: 100%;
+                overflow: hidden;
+                border-radius: 20px;
+                .img,
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .main {
+            padding-left: 16em;
+            @media screen and (max-width: 1100px) {
+                padding-left: 15em;
+            }
+            @media screen and (max-width: 750px) {
+                padding-left: 0;
+            }
+        }
+    }
+}
+.fixed-side-layout .fixed-area {
+    @media screen and (max-width: 750px) {
+        position: static;
+        display: flex;
+        padding-top: 0;
+        width: 100%;
+    }
+}
+.main {
+    padding-bottom: 6rem;
+    .card-title-medium {
+        margin-bottom: 0.6em;
+    }
+}
+.profile-main-content {
+    padding: 0.5rem 0.8em;
+    .title-wrapper:not(:first-child) {
+        margin-top: 5rem;
+    }
+}
+.displayname,
+.podcast-title {
+    font-size: 1.3rem;
+    color: $light-theme-text-color;
+    font-weight: 700;
+    max-width: 100%;
+}
+
+.infos-container {
+    @media screen and (max-width: 750px) {
+        flex-grow: 1;
+        padding: 0 0.5em;
+    }
+    .buttons {
+        display: flex;
+        margin-top: 1rem;
+        & > * {
+            flex-grow: 10;
+            padding: 0.1rem 0.6rem;
+            button {
+                width: 100%;
+                flex-grow: 10;
+            }
+        }
+    }
+    .dots,
+    .menu-toggle {
+        position: relative;
+        display: flex;
+    }
+}
+.stats {
+    display: flex;
+    font-size: 0.75rem;
+    .sep {
+        height: 0.85rem;
+        width: 1px;
+        margin: 0 0.3rem;
+        background-color: #575757a4;
+    }
+}

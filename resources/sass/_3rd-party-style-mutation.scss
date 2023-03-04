@@ -1,0 +1,84 @@
+ .vue-content-placeholders-img, .vue-content-placeholders-text__line {
+    background: #b6b6b6 !important;
+    opacity: .4;
+    &::before {
+      background: linear-gradient(to right, transparent 0%, rgba(209, 209, 230, 0.699) 15%, transparent 30%) !important;
+    }
+}
+.v-list--rounded .v-list-item, .v-list--rounded .v-list-item:before{
+    border-radius: 22px !important;
+}
+
+button {
+  .v-icon {
+    opacity: .84;
+    cursor: pointer !important;
+  }
+}
+
+
+button[disabled] {
+  .v-icon {
+    opacity: .35;
+    cursor: default !important;
+  }
+}
+
+
+.v-stepper {
+  &__wrapper, &__items {
+    overflow: auto !important;
+  }
+}
+
+// .v-dialog--fullscreen {
+//   overflow-y: hidden !important;
+// }
+
+.theme--light.v-label {
+  color: inherit !important;
+}
+
+.v-input--selection-controls {
+  margin-top: 0 !important;
+}
+
+.muzzie-notification{
+  // styling
+  margin: 0 5px 5px 5px;
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 5px;
+  margin: .5em .2em;
+  color: #ffffff;
+  
+  // default (blue)
+  background: #44A4FC;
+  border-left: 5px solid #187FE7;
+
+  // types (green, amber, red)
+  &.success {
+    background: #68CD86;
+    border-left-color: #42A85F;
+  }
+
+  &.warn {
+    background: #ffb648;
+    border-left-color: #f48a06;
+  }
+
+  &.error {
+    background: #E54D42;
+    border-left-color: #B82E24;
+  }
+}
+
+.list-container > .v-data-table  {
+  background-color: transparent !important;
+}
+
+.dark-background {
+  background-color: $dark-theme-panel-bg-color !important;
+}
+
+.vue-notification-group {top: 55px !important;}

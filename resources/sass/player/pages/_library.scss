@@ -1,0 +1,131 @@
+@import "../../variables";
+.icon-header > .cover {
+    background: linear-gradient(45deg, #61045f, #aa076b);
+}
+.library-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    @media screen and (max-width: 800px) {
+        display: block;
+        margin-top: -3em;
+    }
+    .library-fixed-wrapper {
+        width: 260px;
+        ul {
+            background-color: $light-theme-bg-color;
+        }
+        @media screen and (max-width: 1100px) {
+            max-width: 200px;
+        }
+        @media screen and (max-width: 800px) {
+            position: static;
+            padding-top: 0;
+            width: 100%;
+            max-width: 1000px;
+            ul {
+                display: flex;
+                width: 100%;
+                overflow-x: auto;
+                white-space: nowrap;
+                padding-bottom: 0.4em !important;
+                &::-webkit-scrollbar {
+                    width: 6px;
+                    height: 6px;
+                    transform: translateX(-50px);
+                }
+            }
+        }
+        .library-header {
+            margin-top: 2em;
+            align-items: center;
+            .cover {
+                margin-right: 1em;
+            }
+            .sub {
+                font-size: 0.7em;
+            }
+        }
+        .list-menu {
+            .list {
+                padding: 0;
+                width: 100%;
+                min-width: 10rem;
+                a {
+                    color: $light-theme-text-color;
+                    text-decoration: none;
+                }
+                list-style: none;
+                li {
+                    padding: 0.4rem 1rem;
+                    img {
+                        width: 2rem;
+                        margin-right: 1rem;
+                        border-radius: 5px;
+                    }
+                    &:hover {
+                        background-color: rgba(134, 134, 134, 0.212);
+                    }
+                }
+                li.active {
+                    background-color: rgba(134, 134, 134, 0.212);
+                }
+            }
+        }
+    }
+    .main {
+        flex-grow: 2;
+        padding-top: 8.6rem;
+        margin-left: 2em;
+        overflow-y: hidden;
+        @media screen and ( max-width: 800px){
+            margin-left: 0em;
+            padding-left: 0 !important;
+            padding-top: 2em !important;
+        }
+    }
+}
+.library__title {
+    font-family: "El Messiri";
+    margin-bottom: 3em;
+}
+.likes-wrapper,
+.recents-wrapper,
+.artist-wrapper,
+.playlists-wrapper,
+.local_songs-wrapper {
+    @media screen and( max-width: 600px) {
+        padding-top: 2em;
+        padding-bottom: 6em;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+        .buttons {
+            display: flex;
+            & > *:first-child {
+                margin-right: 1rem;
+            }
+        }
+        @media screen and( max-width: 600px) {
+            padding: 0em 1em;
+        }
+    }
+}
+.el-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    .icon {
+        width: 2em;
+        height: 2em;
+        margin-right: 1em;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2c3038;
+    }
+}

@@ -1,0 +1,190 @@
+#right-sidebar-container {
+    // position: fixed;
+    // top: 0;
+    // bottom: 0;
+    transition: transform 0.5s;
+    // right: 0;
+    // z-index: 55;
+    padding: 5em .5em 5em .5em;
+    // max-width: 320px;
+    display: flex;
+    min-height: 100vh;
+    width: 19em;
+    height: 100%;
+    flex-direction: column;
+    background-color: $light-theme-panel-bg-color;
+    border-left: $thin-border;
+    // @media screen and( max-width: 1400px) {
+    //     max-width: 15em;
+    // }
+    .right-sidebar-toggle {
+        position: sticky;
+        padding: .5em;
+        background: var(--light-theme-panel-bg-color);
+        border: 1px solid $color-primary;
+        /* border: 1px solid grey; */
+        border-radius: 3px;
+        width: 2em;
+        transform: translateX(-37px);
+        top: 120px;
+        z-index: -1;
+        @media screen and (min-width: 900px) {
+            display: none;
+        }
+    }
+    @media screen and( max-width: 900px) {
+        position: absolute;
+        right: 0;
+        z-index: 55;
+    }
+    .friends-container {
+        position: relative;
+        min-width: 17em;
+        width: 100%;
+        &__title {
+            font-weight: bold;
+            font-size: 1.2em;
+            padding: .5em;
+        }
+        &__main {
+            background-color: $light-theme-bg-color;
+        }
+        .friends-list {
+            padding: 0 0.3em;
+            cursor: pointer;
+            // font-size: 95%;
+            ul {
+                list-style: none;
+                li {
+                    padding: 0.5rem 0.3rem;
+                    border-radius: 25px;
+                    .top-side {
+                        display: flex;
+                        .avatar {
+                            margin-right: 1rem;
+                            position: relative;
+                            img {
+                                border-radius: 50%;
+                                width: 3em;
+                            }
+                            .status {
+                                border-radius: 50%;
+                                height: 0.65em;
+                                width: 0.65em;
+                                position: absolute;
+                                right: 5px;
+                                bottom: 6px;
+                                &-online {
+                                    background-color: #23a823;
+                                }
+                                &-offline {
+                                    background-color: #afafaf;
+                                }
+                            }
+                        }
+                        .infos {
+                            flex-grow: 2;
+                            .name-container{
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                padding-right: 2em;
+                                position: relative;
+                                .name {
+                                    color: $light-theme-text-color;
+                                    margin-right: 1em;
+                                    max-width: 150px;
+                                }
+                            }
+                            .activity-container {
+                                overflow-x: hidden;
+                                position: relative;
+                                padding-right: .5em;
+                                max-width: 150px;
+                                .hiding-box-left {
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    bottom: 0;
+                                    width: 15px;
+                                    background-image: linear-gradient(to right, var(--light-theme-bg-color) 0% , transparent 100%);
+                                }
+                                .hiding-box-right {
+                                    position: absolute;
+                                    right: 0;
+                                    top: 0;
+                                    bottom: 0;
+                                    width: 15px;
+                                    background-image: linear-gradient(to left, var(--light-theme-bg-color) 0% , transparent 100%);
+                                }
+                                .activity {
+                                    font-size: 0.9em;
+                                    white-space: nowrap;
+                                    padding: .2em 0;
+                                    width: 100%;
+                                    animation: slide-to-left linear 12s infinite;
+
+                                }
+                            }
+                        }
+                    }
+                    .bottom-side {
+                        max-height: 0;
+                        overflow: hidden;
+                        transition: max-height 1s ease-out;
+                        .options {
+                            padding-top: 0.9em;
+                            display: flex;
+                            padding: 0.2em 0.4em;
+                            justify-content: space-around;
+                            text-align: center;
+                            & > * {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                border-radius: 10px;
+                                cursor: pointer;
+                                padding: 0.3em 0.4em;
+                                &:hover {
+                                    background-color: rgba(88, 88, 88, 0.26);
+                                }
+                            }
+                            & > button {
+                                border: none;
+                                background-color: transparent;
+                                color: $light-theme-text-color;
+                            }
+                        }
+                    }
+                    &:hover {
+                        background-color: rgba(150, 150, 150, 0.05);
+                        .bottom-side {
+                            max-height: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .active {
+        background-color: rgba(107, 107, 107, 0.26);
+    }
+}
+
+@keyframes slide-to-left {
+    0%{
+        margin-left: 200px;
+    }
+    25%{
+        margin-left: 100px;
+    }
+    50% {
+        margin-left: 0;
+    }
+    75% {
+        margin-left: -100px;
+    }
+    100% {
+        margin-left: -200px;
+    }
+}

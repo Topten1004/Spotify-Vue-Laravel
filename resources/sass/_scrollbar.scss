@@ -1,0 +1,43 @@
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+::-webkit-scrollbar
+{
+    width: 7px;
+    height: 10px;
+    transform: translateX(-50px);
+	background-color: rgba(107, 107, 107, 0.116);
+}
+
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 25px;
+    height: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    background-clip: padding-box;
+    -webkit-border-radius: 4px;
+    background-color: rgba(151, 151, 151, 0.312);
+   
+}
+
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge add Firefox */
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
+  }

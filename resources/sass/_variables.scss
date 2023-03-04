@@ -1,0 +1,26 @@
+
+$body-font-family: 'Nunito', 'Roboto', sans-serif;
+
+$color-primary : var(--color-primary);
+$color-secondary : var(--color-secondary);
+
+$dark-theme-bg-color: var(--dark-theme-bg-color);
+$dark-theme-text-color: var(--dark-theme-text-color); 
+$dark-theme-panel-bg-color: var(--dark-theme-panel-bg-color);
+
+
+$light-theme-bg-color: var(--light-theme-bg-color);
+$light-theme-text-color: var(--light-theme-text-color);
+$light-theme-panel-bg-color: var(--light-theme-panel-bg-color);
+
+
+////////// breakpoints
+
+// small screen
+$screen-sm-max: 600px;
+$screen-md-max: 900px;
+
+
+$thin-border: 1px solid rgba(206, 206, 206, 0.13);
+$card-box-shadow: var(--card-box-shadow);
+$hover-list-bg : #86868636;

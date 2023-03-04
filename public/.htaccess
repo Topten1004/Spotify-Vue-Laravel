@@ -1,0 +1,36 @@
+<IfModule mod_rewrite.c>
+ <IfModule mod_negotiation.c>
+ Options -MultiViews -Indexes
+ </IfModule>
+
+ RewriteEngine On
+
+ # Yayındaki ortam elbette production
+ RewriteRule .* - [E=ENVIRONMENT:production]
+
+ # Ben yerel ortamda sanal alan adlarını .test olarak kullanıyorum. Yani kendi bilgisayarımda site http://benimsitem.test olarak çalışıyor
+ # O yüzden burada .test yazan kısmı kendi uzantınızla değiştirin.
+ # Bu kısımda alan adı .test ile bitiyorsa geliştirme ortamını local yapmış olduk
+ RewriteCond %{SERVER_NAME} .test$
+ RewriteRule .* - [E=ENVIRONMENT:local]
+
+ # Handle Authorization Header
+ RewriteCond %{HTTP:Authorization} .
+ RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+ # Redirect Trailing Slashes If Not A Folder...
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_URI} (.+)/$
+ RewriteRule ^ %1 [L,R=301]
+
+ # Handle Front Controller...
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteRule ^ index.php [L]
+
+ # Eğer geliştirme ortamı production ise tüm linkleri https'ye yönlendirelim. Burada elbette benimsitem.com yazan kısmı değiştiriyoruz.
+ RewriteCond %{ENV:ENVIRONMENT} production
+ RewriteCond %{SERVER_PORT} 80
+ RewriteRule ^(.*)$ https://www.acoustie.com/$1 [R,L]
+
+</IfModule>

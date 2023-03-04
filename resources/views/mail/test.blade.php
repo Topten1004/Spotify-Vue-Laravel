@@ -1,0 +1,1 @@
+This is a simple test mail, to test if the mailing service functions as expected.

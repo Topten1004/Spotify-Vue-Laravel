@@ -1,0 +1,124 @@
+// dark theme styles for all the app ( in general )
+// the dark theme of the player will be found @ player/dark
+.player--dark,
+.v-application.theme--dark {
+    .content-item {
+        &__header {
+            .control-layer {
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+            .infos-layer {
+                color: $dark-theme-text-color;
+                .overlay {
+                    background: -webkit-linear-gradient(
+                        top,
+                        rgba(0, 0, 0, 0) 0%,
+                        rgb(88, 79, 66) 100%
+                    );
+                }
+                .info-badge {
+                    span {
+                        background: #fff;
+                        color: #000;
+                    }
+                }
+            }
+
+            .layer-content {
+                background-color: rgba(82, 0, 214, 0.26);
+            }
+        }
+        &__body {
+            &__type {
+                color: #727272;
+            }
+            &__title {
+                color: var(--dark-theme-text-color);
+            }
+        }
+    }
+
+    .router-link {
+        color: $dark-theme-text-color !important;
+        &__white {
+            color: white !important;
+        }
+    }
+    .page-title-medium {
+        color: $dark-theme-text-color;
+    }
+    .vue-content-placeholders-img,
+    .vue-content-placeholders-text__line {
+        background: #383b41 !important;
+        &::before {
+            background: linear-gradient(
+                to right,
+                transparent 0%,
+                rgba(141, 141, 155, 0.699) 15%,
+                transparent 30%
+            ) !important;
+        }
+    }
+    .absolute-panel {
+        background-color: $dark-theme-panel-bg-color;
+        color: $dark-theme-text-color;
+        border: 1px solid rgba($dark-theme-text-color, 0.5);
+        box-shadow: none;
+    }
+    .card-title {
+        color: $dark-theme-text-color;
+    }
+    .m_input,
+    .theme--light.v-application .m_input {
+        color: black;
+        background-color: #eee;
+    }
+    .sub {
+        color: $dark-theme-text-color;
+        opacity: 0.8;
+    }
+    .sub a {
+        color: $dark-theme-text-color !important;
+        opacity: 0.8;
+    }
+    input {
+        color: #f5f5f5;
+    }
+    .panel {
+        background-color: $dark-theme-panel-bg-color !important;
+    }
+    .content-page {
+        .icon-header {
+            color: $dark-theme-text-color;
+            .title {
+                .sub {
+                    color: $dark-theme-text-color;
+                }
+            }
+        }
+    }
+    
+    .vc-container, .vc-btn {
+        background-color: $dark-theme-panel-bg-color !important;
+        .vc-text {
+            color: $dark-theme-text-color !important;
+        }
+    }
+}
+
+.player--dark {
+    .theme--dark.v-card,
+    .theme--dark.v-sheet,
+    .theme--dark.v-list,
+    .v-list .v-select-list,
+    .theme--dark.v-bottom-navigation {
+        background-color: $dark-theme-panel-bg-color !important;
+    }
+}
+
+// .theme--dark.v-btn.v-btn--has-bg
+
+
+.dark-backround {
+    background-color: $dark-theme-panel-bg-color !important;
+}

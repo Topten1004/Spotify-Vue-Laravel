@@ -1,0 +1,68 @@
+// the swiper section is the swipable section that takes place on the custom pages
+
+.section-container {
+    width: 100%;
+    // margin-top: 1rem;
+    position: relative;
+    margin-bottom: 2.5em;
+}
+.section-header {
+    border-bottom: 1px solid rgba($color-primary, 0.3);
+    display: flex;
+    width: 97.5%;
+    font-size: 1.15rem;
+    align-items: center;
+    padding: 0.3em 0;
+    justify-content: space-between;
+    &__title {
+        font-size: 1.15em;
+        font-weight: 500;
+        line-height: 1em;
+        color: var(--light-theme-text-color);
+        margin-bottom: 0.4em;
+    }
+    &-small-screen {
+        border-bottom: none;
+        .section-header__title {
+            font-size: 1.3em;
+            color: $light-theme-text-color;
+        }
+        @media screen and (min-width: 600px) {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+}
+// .section-content {
+//     display: flex;
+//     padding: 0.5rem 0.5rem;
+//     overflow-x: scroll;
+//     flex-wrap: wrap;
+//     & > * {
+//         flex-basis: 18%;
+//         border-radius: 25px;
+//         margin: 0 1rem;
+//     }
+// }
+// .swiper-slide {
+//     max-width: 14em;
+//     @media screen and (max-width: 600px) {
+//         max-width: 10em;
+//     }
+// }
+
+.player--dark,
+.theme--dark.v-application {
+    .section-header {
+        &__title {
+            color: $dark-theme-text-color;
+        }
+        &-small-screen {
+            .section-header__title {
+                color: $dark-theme-text-color;
+            }
+        }
+    }
+}

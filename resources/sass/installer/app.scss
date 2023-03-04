@@ -1,0 +1,19 @@
+@import '../variables';
+@import '../utilities';
+
+
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+.installer-container {
+    background-image: url('images/background.svg');
+    background-size: cover;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+// .center-element {
+//     display: grid;
+//     place-items: center;
+// }

@@ -1,0 +1,268 @@
+[24-Feb-2023 06:42:03 Europe/Istanbul] PHP Warning:  require(/home/bastirtc/acoustie.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/public/index.php on line 24
+[24-Feb-2023 06:42:03 Europe/Istanbul] PHP Fatal error:  require(): Failed opening required '/home/bastirtc/acoustie.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/public/index.php on line 24
+[24-Feb-2023 06:43:09 Europe/Istanbul] PHP Warning:  require(/home/bastirtc/acoustie.com/vendor/composer/../symfony/polyfill-php80/bootstrap.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/autoload_real.php on line 71
+[24-Feb-2023 06:43:09 Europe/Istanbul] PHP Fatal error:  require(): Failed opening required '/home/bastirtc/acoustie.com/vendor/composer/../symfony/polyfill-php80/bootstrap.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/autoload_real.php on line 71
+[24-Feb-2023 06:44:01 Europe/Istanbul] PHP Warning:  require(/home/bastirtc/acoustie.com/vendor/composer/../symfony/polyfill-php80/bootstrap.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/autoload_real.php on line 71
+[24-Feb-2023 06:44:01 Europe/Istanbul] PHP Fatal error:  require(): Failed opening required '/home/bastirtc/acoustie.com/vendor/composer/../symfony/polyfill-php80/bootstrap.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/autoload_real.php on line 71
+[24-Feb-2023 06:45:01 Europe/Istanbul] PHP Warning:  require(/home/bastirtc/acoustie.com/vendor/composer/../ralouphie/getallheaders/src/getallheaders.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/autoload_real.php on line 71
+[24-Feb-2023 06:45:01 Europe/Istanbul] PHP Fatal error:  require(): Failed opening required '/home/bastirtc/acoustie.com/vendor/composer/../ralouphie/getallheaders/src/getallheaders.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/autoload_real.php on line 71
+[24-Feb-2023 06:46:01 Europe/Istanbul] PHP Warning:  require(/home/bastirtc/acoustie.com/vendor/composer/../ralouphie/getallheaders/src/getallheaders.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/autoload_real.php on line 71
+[24-Feb-2023 06:46:01 Europe/Istanbul] PHP Fatal error:  require(): Failed opening required '/home/bastirtc/acoustie.com/vendor/composer/../ralouphie/getallheaders/src/getallheaders.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/autoload_real.php on line 71
+[24-Feb-2023 06:47:01 Europe/Istanbul] PHP Warning:  require(/home/bastirtc/acoustie.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/autoload_real.php on line 71
+[24-Feb-2023 06:47:01 Europe/Istanbul] PHP Fatal error:  require(): Failed opening required '/home/bastirtc/acoustie.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/autoload_real.php on line 71
+[24-Feb-2023 06:48:01 Europe/Istanbul] PHP Warning:  require(/home/bastirtc/acoustie.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/autoload_real.php on line 71
+[24-Feb-2023 06:48:01 Europe/Istanbul] PHP Fatal error:  require(): Failed opening required '/home/bastirtc/acoustie.com/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/autoload_real.php on line 71
+[24-Feb-2023 06:55:28 Europe/Istanbul] PHP Warning:  require(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Support/helpers.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/autoload_real.php on line 71
+[24-Feb-2023 06:55:28 Europe/Istanbul] PHP Fatal error:  require(): Failed opening required '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Support/helpers.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/autoload_real.php on line 71
+[24-Feb-2023 06:55:33 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:33 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:33 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:38 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:38 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:38 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:39 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:39 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:39 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:40 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:41 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:41 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:41 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:41 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:41 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:41 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:41 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:41 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:41 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:42 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:42 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:42 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:42 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:42 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:42 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:42 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:42 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:42 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:43 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:43 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:43 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:43 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:43 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:43 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:43 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:43 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:43 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:47 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:47 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:47 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:55:54 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:54 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:55:54 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 06:57:12 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:57:12 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 06:57:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15
+[24-Feb-2023 07:00:08 Europe/Istanbul] PHP Warning:  include(/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php): failed to open stream: No such file or directory in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 07:00:08 Europe/Istanbul] PHP Warning:  include(): Failed opening '/home/bastirtc/acoustie.com/vendor/composer/../laravel/framework/src/Illuminate/Contracts/Container/Container.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php on line 478
+[24-Feb-2023 07:00:08 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Container\Container' not found in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:15
+Stack trace:
+#0 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include()
+#1 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Cont...')
+#3 /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(29): spl_autoload_call('Illuminate\\Cont...')
+#4 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(478): include('/home/bastirtc/...')
+#5 /home/bastirtc/acoustie.com/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile('/home/bastirtc/...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#7 /home/bastirtc/acoustie.com/bootstrap/app.php(14): spl_autoload_call('Illuminate\\Foun...') in /home/bastirtc/acoustie.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 15

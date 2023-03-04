@@ -1,0 +1,26 @@
+.card-bb-header {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid ;
+        border-color: rgba(0,0,0,.12);
+        padding-bottom: .7em;
+        .title {
+            font-weight: bold;
+        }
+        .buttons {
+            &:not(:last-child) {
+                margin-right: .5em;
+            }
+        }
+    }
+    .body {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 2em;
+        .item {
+          padding: .3em .5em;
+        }
+    }
+}
+

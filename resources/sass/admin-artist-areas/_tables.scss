@@ -1,0 +1,27 @@
+.table {
+    color: white;
+}
+.user-avatar {
+    border-radius: 5px;
+    padding: 0.3em 0;
+}
+.img-container {
+    .upload-percentage {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(32, 32, 32, 0.514);
+        color: white;
+        position: absolute;
+        font-family: "Lobster", cursive;
+        font-size: 1.1em;
+        font-weight: bold;
+        .content-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

@@ -1,0 +1,40 @@
+AdController.php
+# if( Setting::get('requireEmailConfirmation') && !$user->email_verified_at && !$user->is_admin) {
+#     if( Setting::get('requireEmailConfirmation') ) {
+#         try {
+#             $user->sendEmailVerificationNotification();
+#             return response()->json(['message' => 'We have sent a verification email to the address you provided.'], 201);
+#         }  catch(\Exception $e) {
+#             return response()->json(['message' => 'Some error occured while trying to send an email.'], 400);
+#         } 
+#     }
+#     return response()->json(['errors' => ['error' => 'Sorry, you must vetify your email first, please verify your email inbox.']],400);
+# } 
+# public function YouMayAlsoLike()
+# {   
+#     $favored_genres = auth()->user()->plays()->selectRaw('song_id, COUNT(*)')->with('song.genres')->groupBy('song_id')->orderBy('COUNT(*)','desc')->take(10)->get()->pluck('Song')->pluck('genres')->collapse();
+#     return SongResource::collection(\App\Song::whereNotIn('id', $favored_genres->map(function($genre){
+#         return $genre->pivot->song_id;
+#     }))->whereHas('genres', function($q){
+#         $favored_genres = auth()->user()->plays()->selectRaw('song_id, COUNT(*)')->with('song.genres')->groupBy('song_id')->orderBy('COUNT(*)','desc')->take(10)->get()->pluck('Song')->pluck('genres')->collapse();
+#         $q->whereIn('name', $favored_genres->map(function($genre){
+#             return $genre->name;
+#         }));
+#     })->get());
+# }
+
+# public function sectionInteresting()
+# {   
+#     $interesting = new \stdClass();
+#     $interesting->most_liked_song = new SongResource(\App\Song::withCount('likes')->where('public',1)->orderBy('likes_count','desc')->first());
+#     $interesting->most_played_song = new SongResource(\App\Song::withCount('plays')->where('public',1)->orderBy('plays_count','desc')->first());
+#     $interesting->latest_released_song = new SongResource(\App\Song::withCount('plays')->where('public',1)->orderBy('plays_count','desc')->first());
+#     $interesting->most_liked_album = new AlbumResource(\App\Album::withCount('likes')->where('public',1)->orderBy('likes_count','desc')->first());
+#     $interesting->most_followed_podcast = new PodcastResource(\App\Podcast::withCount('followers')->where('public',1)->orderBy('followers_count','desc')->first());
+#     return json_encode($interesting);
+# }
+
+# public function Interesting()
+# {   
+#     return $this->sectionInteresting();
+# }
